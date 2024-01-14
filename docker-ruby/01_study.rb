@@ -20,8 +20,8 @@ end
 arg1 = ARGV[0]
 
 if arg1.nil?
-  binding.pry  
-  puts "Usage: ruby script_name.rb <input_string>"
+  # binding.pry
+  puts "Usage: ruby 01_study.rb <input_string>"
 else
   is_unique?(arg1)
 end
